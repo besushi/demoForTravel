@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/flights"
+                android:title="@string/Flights"/>
+        <item
+                android:id="@+id/vacation"
+                android:title="@string/Vacation"/>
+        <item
+                android:id="@+id/concerts"
+
+                android:title="@string/Concerts"/>
+        <item
+                android:id="@+id/leisure"
+
+                android:title="@string/Leisure"/>
+    </group>
+
+
+</menu>
